@@ -2,6 +2,26 @@
 
 A simple command-line interface for interacting with Apache Kafka.
 
+## Docker Setup
+
+The project includes a Docker Compose configuration for setting up a local Kafka environment. To start the Kafka cluster:
+
+```bash
+docker-compose up -d
+```
+
+This will start:
+- Zookeeper (port 2181)
+- Kafka broker (port 9092)
+- Kafka UI (port 8080)
+
+You can access the Kafka UI at http://localhost:8080 to monitor topics, messages, and broker status.
+
+To stop the Kafka cluster:
+```bash
+docker-compose down
+```
+
 ## Building
 
 To build the project, run:
