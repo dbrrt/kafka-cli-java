@@ -109,7 +109,7 @@ java -jar target/kafka-cli-1.0-SNAPSHOT-jar-with-dependencies.jar \
 Setup consumer
 
 ```bash
-make consumer
+make consume
 ```
 
 Send message
