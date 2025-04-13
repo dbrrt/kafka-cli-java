@@ -103,6 +103,22 @@ java -jar target/kafka-cli-1.0-SNAPSHOT-jar-with-dependencies.jar \
 - `-h, --help`: Show help message
 - `-V, --version`: Show version information
 
+
+## Usage
+
+Setup consumer
+
+```bash
+make consumer
+```
+
+Send message
+
+```bash
+MESSAGE=foo make produce
+```
+
+
 ## Requirements
 
 - Java 11 or higher
